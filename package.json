@@ -1,0 +1,36 @@
+{
+  "name": "rideguard",
+  "version": "0.1.0",
+  "description": "Open-source double-booking prevention system for ride-hailing platforms",
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://github.com/your-org/rideguard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/rideguard.git"
+  },
+  "keywords": ["ride-hailing", "uber", "lyft", "double-booking", "open-source"],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "zustand": "^4.5.2",
+    "dayjs": "^1.11.10"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
