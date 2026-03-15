@@ -1,5 +1,7 @@
 # RideGuard 🛡️
 
+![RideGuard Hero](./public/images/hero_banner.png)
+
 > **Open-source double-booking prevention for ride-hailing platforms.**  
 > User-controlled. Transparent. Platform-agnostic.
 
@@ -100,10 +102,14 @@ Pure logic layer — no platform-specific code. Takes a list of active rides + a
 - Driver names and routes
 - Explicit **Cancel** vs **Proceed + Notify** choice
 
+![Conflict Detection Mockup](./public/images/conflict_mockup.png)
+
 ### Module 4 — Driver Notifications
 **Files:** `src/modules/notify/`
 
 Fires only after explicit user confirmation. Each platform adapter exposes a `notifyDriver()` method. All dispatches are logged with timestamps.
+
+![Driver Notification Mockup](./public/images/notification_mockup.png)
 
 ---
 
